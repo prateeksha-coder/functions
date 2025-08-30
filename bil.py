@@ -9,4 +9,4 @@ def subtract(x,y):
     ''' This function is about subtracting and positional arguments'''
     return x-y
 print(subtract(5,10))
-print(subtract.__doc__)
+print(input.__doc__)
