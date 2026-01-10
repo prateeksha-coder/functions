@@ -1,13 +1,5 @@
-def greet(name):# here 'name' is parameter
+def add(a,b): #parameters
+    return (a+b)
 
-    print("Good Morning!!")
-    print("Hope you have a great day")
-    return name
-
-user_input=input("Enter name: ")
-print(greet(user_input))#call or invoke
-
-
-
-
-
+c=add(5) #argumnets are values that are passed to the parameter
+print(c)
