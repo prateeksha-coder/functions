@@ -1,5 +1,7 @@
-def add(a,b): #parameters
-    return (a+b)
+def add(a,b):#parameters
+    print (a+b)
 
-c=add(5) #argumnets are values that are passed to the parameter
-print(c)
+a1=int(input('enter number1: '))
+a2=int(input("enter number2:"))
+c=add(a1,a2) #arguments=values passed to the parameters
+print("sum is ",c)
