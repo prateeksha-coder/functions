@@ -1,7 +1,5 @@
-def add(a,b):#parameters
-    print (a+b)
+def add(a,b): #parameters =>a,b
+   return a+b
 
-a1=int(input('enter number1: '))
-a2=int(input("enter number2:"))
-c=add(a1,a2) #arguments=values passed to the parameters
-print("sum is ",c)
+c=add(3,5) #function call #3,5 arguments[arguments are the values passed to the parameters]
+print("Sum=",c)
