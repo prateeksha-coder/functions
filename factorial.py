@@ -11,3 +11,4 @@ elif(n==0):
     print("Factorial of 0 is 1.")
 else:
     print(f"Factorial of {n} is {recur_factorial(n)}")
+

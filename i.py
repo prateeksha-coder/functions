@@ -1,6 +1,10 @@
-def add(a,b): #parameters =>a,b
- return (a+b)
+def add(a,b): #a, b -> parameters
+    sum=a+b
+    print(sum)
 
+s=add(7,9)
+avg=s/2
+print(avg)
 
-c=add(3,5) #function call #3,5 arguments[arguments are the values passed to the parameters]
-print("Sum=",c)
+add(10,20)#calling or invoking a function
+#arguments -> are the values that are passed to the parameters.
