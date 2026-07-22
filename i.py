@@ -1,10 +1,9 @@
-def add(a,b): #a, b -> parameters
+#in-built functions
+#user-defined functions
+def add(a,b): # a,b parameters
     sum=a+b
-    print(sum)
+    return (sum)
 
-s=add(7,9)
-avg=s/2
-print(avg)
-
-add(10,20)#calling or invoking a function
-#arguments -> are the values that are passed to the parameters.
+a=add(50,30)/2
+print(a) #values are called arguments
+add(15,29)
