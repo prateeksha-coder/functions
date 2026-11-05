@@ -1,9 +1,11 @@
-#in-built functions
-#user-defined functions
-def add(a,b): # a,b parameters
+#in-built functions - print, input, int(),str(),float()
+#user-defined fucntions.
+def add(a,b): #parameters
     sum=a+b
-    return (sum)
+    return sum
+    
+avg=add(10,20)/2 #invoke, call  10 n 20- arguments
+#arguments are the values passed to the parameters
 
-a=add(50,30)/2
-print(a) #values are called arguments
-add(15,29)
+
+print(avg)
